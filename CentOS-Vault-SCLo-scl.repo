@@ -1,0 +1,35 @@
+# Inspired by CentOS-SCLo-scl.repo
+#
+# Please see http://wiki.centos.org/SpecialInterestGroup/SCLo and
+# https://github.com/wwfxuk/centos-vault-scl for more information
+
+# 7.9.2009
+
+[C7.9.2009-centos-sclo-sclo]
+name=CentOS-7.9.2009 - SCLo sclo
+baseurl=http://vault.centos.org/centos/7.9.2009/sclo/$basearch/sclo/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
+[C7.9.2009-centos-sclo-sclo-testing]
+name=CentOS-7.9.2009 - SCLo sclo Testing
+baseurl=http://buildlogs.centos.org/centos/7.9.2009/sclo/$basearch/sclo/
+gpgcheck=0
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
+[C7.9.2009-centos-sclo-sclo-source]
+name=CentOS-7.9.2009 - SCLo sclo Sources
+baseurl=http://vault.centos.org/centos/7.9.2009/sclo/Source/sclo/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
+[C7.9.2009-centos-sclo-sclo-debuginfo]
+name=CentOS-7.9.2009 - SCLo sclo Debuginfo
+baseurl=http://debuginfo.centos.org/centos/7.9.2009/sclo/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
